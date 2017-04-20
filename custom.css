@@ -1,39 +1,54 @@
-
-#home{
-  padding:50px;
-  text-align: center
-}    
-#begin-content{
-  text-align: center
-}
-h1,h3{
-  text-align: center
-}   
-h1,h2,h3{
-  font-family: "Rock Salt";
+.jumbotron {
+  /*display: table;*/
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1), url('img/balloon-1.jpg') no-repeat center;
+  background-size: cover;
 }
 
-p{
-  font-size:170%;
-  font-family:"Josefin Sans";
-}
-#gallery{
-  padding:50px;
-}
-#people{
-  padding:10px;
-}
-#clip-1{
-  float:left;
-}
-#clip-2{
-  float:right;
-}
-/*div.jumbotron {*/
-/*  display: table;*/
-/*  width: 100%;*/
-/*  height: 100%;*/
-/*  background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.1), url('img/balloon-1.jpg') no-repeat center;*/
-/*  background-size: cover;*/
-/*}*/
 
+/* small+ */
+
+@media(min-width:768px) {
+  h1 {
+    font-size: 180px;
+  }
+  h2 {
+    font-size: 70px;
+  }
+  p {
+    font-size: 50px;
+  }
+}
+
+
+/* medium+ */
+
+@media(min-width:992px) {
+  h1 {
+    font-size: 250px;
+  }
+  h2 {
+    font-size: 80px;
+  }
+  p {
+    font-size: 70px;
+  }
+}
+
+
+/* large+ */
+
+@media(min-width:1200px) {
+  h1 {
+    font-size: 390px;
+  }
+  h2 {
+    font-size: 100px;
+  }
+  p {
+    font-size: 90px;
+  }
+}
+
+</style>
